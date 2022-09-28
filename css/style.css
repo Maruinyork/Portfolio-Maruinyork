@@ -638,7 +638,7 @@ nav {
   line-height: 19px;
   font-weight: 400;
   position: absolute;
-  bottom: -75px;
+  bottom: -85px;
 }
 
 .study__title-card a{
@@ -648,8 +648,8 @@ nav {
 }
 
 .study__title-card strong {
-  color: var(--color-background-light);
-  font-size: 1.1em;
+  color: green;
+  font-size: 1em;
 }
 
 .study__card:hover {
@@ -668,6 +668,19 @@ nav {
   object-fit: fill;
   transition: all 0.5s;
 }
+
+#study > div.study__container > div > div:nth-child(4){
+  margin-top: 25px;
+}
+
+#study > div.study__container > div > div:nth-child(5){
+  margin-top: 25px;
+}
+
+#study > div.study__container > div > div:nth-child(6){
+  margin-top: 25px;
+}
+
 
 /*--------- portfolio ---------*/
 
@@ -789,7 +802,7 @@ nav {
 .languages ul li {
   display: flex;
   align-items: center;
-  margin: 0 6px;
+  margin: -5px 6px 0px 6px;
 }
 
 .languages ul li img {
@@ -992,7 +1005,7 @@ nav {
 }
 
 
-/*! <--------- Footer Section --------->*/
+/*! <--------- Footer --------->*/
 
 .footer {
   width: 100%;
@@ -1048,8 +1061,6 @@ nav {
   justify-content: center;
   margin-top: -70px;
 }
-
-/*! <--------- top Button --------->*/
 
 .top-button {
   display: flex;
@@ -1573,7 +1584,6 @@ nav {
     height: 30vh;
   }
 
-
   .title__container-study h3 {
     font-size: 1.6em;
     font-weight: 800;
@@ -1590,7 +1600,7 @@ nav {
 
   .portfolio__card-description-hover {
     width: 92%;
-    height: 66%;
+    height: 80%;
     top: 2.9rem;
     padding: 10px;
   }
@@ -1598,12 +1608,7 @@ nav {
   .portfolio__card-decription-text {
     font-size: 13.2px;
     font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 8px;
-  }
-
-  .languages p {
-    font-size: 13px;
+    line-height: 1.3;
     margin-bottom: 8px;
   }
 
@@ -1616,6 +1621,12 @@ nav {
     height: 40px;
     width: 48%;
     font-size: 16px;
+  }
+
+  .languages ul li img {
+    width: 100%;
+    max-width: 20px;
+    transition: 0.3s;
   }
 
   .contact__info h3 {
@@ -1728,9 +1739,9 @@ nav {
   }
 
   .portfolio__card-decription-text {
-    font-size: 13.2px;
-    margin-bottom: 6px;
-    line-height: 1.2;
+    font-size: .8em;
+    margin-bottom: 3px;
+    line-height: 1.1;
   }
 
   .portfolio__btn {
