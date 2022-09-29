@@ -3,9 +3,8 @@
   --color-background-light: #0e0f0b;
   --color-primary: #f5f5f5;
   --color-secondary: #7b2182;
-  --color-tertiary: #fdd857;
+  --color-tertiary: #e73fe7;
   --color-quaternary: #96979e;
-  --color-quinary: #fd843f;
 }
 
 * {
@@ -195,12 +194,13 @@ nav {
   font-weight: 700;
   text-decoration: none;
   background-color: var(--color-secondary);
-  color: var(--color-background-dark);
+  color: var(--color-primary);
 }
 
 .landing__button:hover {
-  background-color: var(--color-background-dark);
+  background-color: var(--color-primary);
   color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
 }
 
 .fa-download {
@@ -273,7 +273,7 @@ nav {
 }
 
 .animated-border:hover {
-  border-color: var(--color-background-dark);
+  border-color: var(--color-tertiary);
   border-top-color: var(--color-background-light);
 }
 
@@ -638,7 +638,7 @@ nav {
   line-height: 19px;
   font-weight: 400;
   position: absolute;
-  bottom: -85px;
+  bottom: -95px;
 }
 
 .study__title-card a{
@@ -648,7 +648,7 @@ nav {
 }
 
 .study__title-card strong {
-  color: green;
+  color: var(--color-secondary);
   font-size: 1em;
 }
 
