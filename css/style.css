@@ -624,7 +624,7 @@ nav {
 .study__card {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 80%;
   height: 190px;
   border-radius: 12px;
   position: relative;
@@ -638,7 +638,7 @@ nav {
   line-height: 19px;
   font-weight: 400;
   position: absolute;
-  bottom: -95px;
+  bottom: -90px;
 }
 
 .study__title-card a{
@@ -1448,6 +1448,10 @@ nav {
     width: 90%;
   }
 
+  .study__title-card {
+    bottom: -72px;
+  }
+
   .contact__info h3 {
     font-size: 28px;
     line-height: 40px;
@@ -1577,7 +1581,7 @@ nav {
     font-weight: 500;
     color: black;
     position: absolute;
-    bottom: -70px;
+    bottom: -65px;
   }
 
   .study__card {
