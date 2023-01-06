@@ -392,24 +392,24 @@ nav {
 }
 
 .about__subtitle {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   color: var(--color-secondary);
 }
 
 .about__description {
-  margin-top: 25px;
-  font-size: 20px;
+  margin-top: 20px;
+  font-size: 18px;
   text-align: justify;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 25px;
   color: var(--color-background-light);
 }
 
 .about__color {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 25px;
   margin-top: 15px;
   color: var(--color-secondary);
 }
@@ -506,6 +506,7 @@ nav {
   font-size: 30px;
   margin-bottom: 10px;
 }
+
 
 /*! <--------- hardSkills Section --------->*/
 
